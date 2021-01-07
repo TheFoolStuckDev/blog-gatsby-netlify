@@ -56,7 +56,8 @@ module.exports = {
               showCaptions: false,
               wrapperStyle: "margin: 0px;max-width: 1200px;width: 100%"
             }
-          }
+          },
+          `gatsby-remark-highlight-code`
         ],
       },
     },

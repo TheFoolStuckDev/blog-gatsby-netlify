@@ -6,6 +6,10 @@ title: Building an ecommerce with gatsby, snipcart and netlify part 1 - Setup
 
 ![Dog](/images/dog.jpg)
 
+```javascript
+console.log('hello world)
+```
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor blandit tortor, vel aliquet velit porta tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec erat ornare, dictum neque non, scelerisque tellus. Vivamus accumsan orci lectus, id finibus orci porttitor quis. Nunc sit amet aliquet dolor. Vestibulum pulvinar maximus pellentesque. Pellentesque lacus magna, varius et rhoncus mollis, faucibus eu magna. Nullam a est aliquet, rhoncus magna sit amet, iaculis nunc. Sed id volutpat justo. Phasellus eu nunc suscipit mauris tincidunt vehicula et sit amet felis. Cras venenatis lobortis rhoncus. Mauris commodo elit a tincidunt facilisis. Donec luctus non mauris quis gravida.
 
 Duis fringilla lectus vel tortor tincidunt, eu euismod felis mollis. Suspendisse maximus convallis justo, in eleifend leo mollis non. Proin feugiat tincidunt turpis id facilisis. Cras enim massa, volutpat in eleifend sit amet, tempus id turpis. Praesent malesuada enim id felis vulputate efficitur. Suspendisse potenti. Praesent libero nibh, luctus non commodo in, auctor in nisl. In eu scelerisque ex. Mauris feugiat eu tortor in euismod. Suspendisse vestibulum enim sit amet nisl convallis tempus. Maecenas sit amet metus pharetra, porttitor nibh non, finibus risus. Integer id lorem volutpat, pharetra turpis sed, laoreet odio. Fusce tincidunt nisl sit amet dolor pharetra efficitur. Sed hendrerit rhoncus metus, vitae bibendum odio lacinia ut. In a magna eros. Nulla non fermentum dolor.
