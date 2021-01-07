@@ -57,7 +57,15 @@ module.exports = {
               wrapperStyle: "margin: 0px;max-width: 1200px;width: 100%"
             }
           },
-          `gatsby-remark-highlight-code`
+          `gatsby-remark-highlight-code`,
+          {
+            resolve: `gatsby-remark-embed-youtube`,
+            options: {
+              width: 16,
+              height: 9
+            }
+          },
+          `gatsby-remark-responsive-iframe`
         ],
       },
     },

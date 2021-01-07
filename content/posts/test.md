@@ -1,6 +1,8 @@
 ---
-title: Building an ecommerce with gatsby, snipcart and netlify part 1 - Setup
+title: Building
 ---
+
+`youtube:https://www.youtube.com/embed/JwYX52BP2Sk`
 
 # Test
 
