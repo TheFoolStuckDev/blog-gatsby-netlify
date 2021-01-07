@@ -1,17 +1,22 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { PostStyles, renderAst } from '../styles/PostStyles';
+
+
 
 export default function PostTemplate({data}) {
   const {post} = data;
   return (
-    <div dangerouslySetInnerHTML={{__html: post.html}}/>
+    <PostStyles>
+      {renderAst(post.htmlAst)}
+    </PostStyles>
   );
 }
 
 export const query = graphql`
  query($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+      htmlAst
       frontmatter {
         title
       }
