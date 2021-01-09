@@ -1,23 +1,23 @@
 ---
-title: Building
+title: Dogs are great !
 thumbnail: ../../static/images/dog.jpg
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor blandit tortor, vel aliquet velit porta tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec erat ornare, dictum neque non, scelerisque tellus. Vivamus accumsan orci lectus, id finibus orci porttitor quis. Nunc sit amet aliquet dolor. Vestibulum pulvinar maximus pellentesque.
 date: 2021-01-01
 ---
 
+# Dogs are great
+
 `youtube:https://www.youtube.com/embed/JwYX52BP2Sk`
 
-# Test
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor blandit tortor, vel aliquet velit porta tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec erat ornare, dictum neque non, scelerisque tellus. Vivamus accumsan orci lectus, id finibus orci porttitor quis. Nunc sit amet aliquet dolor. Vestibulum pulvinar maximus pellentesque. Pellentesque lacus magna, varius et rhoncus mollis, faucibus eu magna. Nullam a est aliquet, rhoncus magna sit amet, iaculis nunc. Sed id volutpat justo. Phasellus eu nunc suscipit mauris tincidunt vehicula et sit amet felis. Cras venenatis lobortis rhoncus. Mauris commodo elit a tincidunt facilisis. Donec luctus non mauris quis gravida.
 
 ![Dog](/images/dog.jpg)
+
+Duis fringilla lectus vel tortor tincidunt, eu euismod felis mollis. Suspendisse maximus convallis justo, in eleifend leo mollis non. Proin feugiat tincidunt turpis id facilisis. Cras enim massa, volutpat in eleifend sit amet, tempus id turpis. Praesent malesuada enim id felis vulputate efficitur. Suspendisse potenti. Praesent libero nibh, luctus non commodo in, auctor in nisl. In eu scelerisque ex. Mauris feugiat eu tortor in euismod. Suspendisse vestibulum enim sit amet nisl convallis tempus. Maecenas sit amet metus pharetra, porttitor nibh non, finibus risus. Integer id lorem volutpat, pharetra turpis sed, laoreet odio. Fusce tincidunt nisl sit amet dolor pharetra efficitur. Sed hendrerit rhoncus metus, vitae bibendum odio lacinia ut. In a magna eros. Nulla non fermentum dolor.
 
 ```javascript
 console.log('hello world)
 ```
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor blandit tortor, vel aliquet velit porta tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec erat ornare, dictum neque non, scelerisque tellus. Vivamus accumsan orci lectus, id finibus orci porttitor quis. Nunc sit amet aliquet dolor. Vestibulum pulvinar maximus pellentesque. Pellentesque lacus magna, varius et rhoncus mollis, faucibus eu magna. Nullam a est aliquet, rhoncus magna sit amet, iaculis nunc. Sed id volutpat justo. Phasellus eu nunc suscipit mauris tincidunt vehicula et sit amet felis. Cras venenatis lobortis rhoncus. Mauris commodo elit a tincidunt facilisis. Donec luctus non mauris quis gravida.
-
-Duis fringilla lectus vel tortor tincidunt, eu euismod felis mollis. Suspendisse maximus convallis justo, in eleifend leo mollis non. Proin feugiat tincidunt turpis id facilisis. Cras enim massa, volutpat in eleifend sit amet, tempus id turpis. Praesent malesuada enim id felis vulputate efficitur. Suspendisse potenti. Praesent libero nibh, luctus non commodo in, auctor in nisl. In eu scelerisque ex. Mauris feugiat eu tortor in euismod. Suspendisse vestibulum enim sit amet nisl convallis tempus. Maecenas sit amet metus pharetra, porttitor nibh non, finibus risus. Integer id lorem volutpat, pharetra turpis sed, laoreet odio. Fusce tincidunt nisl sit amet dolor pharetra efficitur. Sed hendrerit rhoncus metus, vitae bibendum odio lacinia ut. In a magna eros. Nulla non fermentum dolor.
 
 In finibus, mi ac mattis egestas, urna dui vulputate justo, eu facilisis ex nisl in nunc. Fusce sit amet hendrerit justo. Praesent sem odio, viverra a ipsum vel, vehicula faucibus nisi. Donec iaculis est odio, in convallis felis laoreet id. Duis ullamcorper placerat dolor quis vulputate. Duis et nunc dolor. Integer congue ultricies fringilla. Nam porttitor elit vel orci tincidunt, pellentesque auctor diam elementum. Proin vitae tellus sed augue mollis aliquet eget consequat massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer malesuada imperdiet laoreet. Praesent porta, diam eu sodales pulvinar, tellus ligula congue dolor, non malesuada neque neque sed erat. Suspendisse in ante consequat, viverra libero eu, posuere dui. Pellentesque ut facilisis risus. Sed finibus eu nisi a gravida. In fermentum auctor quam non ullamcorper.
 

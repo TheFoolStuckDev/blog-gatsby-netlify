@@ -14,6 +14,7 @@ import styled from "styled-components";
 import GlobalStyles from "../styles/GlobalStyles";
 import Typography from "../styles/Typography";
 import Nav from "./nav";
+import Footer from "./footer";
 
 const LayoutStyles = styled.div`
   .container {
@@ -39,9 +40,11 @@ const Layout = ({ children }) => {
       <GlobalStyles/>
       <Typography/>
       <Nav/>
+      <div className="layer"/>
       <div className="container">
         {children}
       </div>
+      <Footer/>
     </LayoutStyles>
   );
 };
