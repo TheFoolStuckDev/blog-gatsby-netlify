@@ -1,4 +1,5 @@
 const { createFilePath } = require("gatsby-source-filesystem");
+const { paginate } = require('gatsby-awesome-pagination');
 const path = require('path');
 
 // Add a slug field for every md files based on their name
@@ -40,4 +41,14 @@ exports.createPages = async ({graphql, actions}) => {
       }
     })
   })
+
+  paginate({
+    createPage,
+    items: result.data.allMarkdownRemark.edges,
+    itemsPerPage: parseInt(process.env.GATSBY_POSTS_PER_PAGE),
+    pathPrefix: '/blog',
+    component: path.resolve('./src/pages/index.js')
+  })
+
+
 }

@@ -70,7 +70,6 @@ export default function Nav() {
       }
     }
   `);
-  console.log(image);
   return (
     <NavStyles>
       <div className="nav-container">

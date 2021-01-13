@@ -4,6 +4,24 @@ import styled from "styled-components";
 import SEO from "../components/seo";
 import Img from 'gatsby-image';
 
+const IndexStyles = styled.div`
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--black);
+
+    
+    &[disabled]{
+      pointer-events: none;
+      color: var(--grey);
+    }
+  }
+`
+
 const PostsGrid = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -79,15 +97,22 @@ const PostStyles = styled.div`
 
 
 
-export default function IndexPage({data}){
-  console.log(data);
+export default function IndexPage({data, pageContext}){
   const posts = data.posts.edges;
+  let {pageNumber, humanPageNumber, previousPagePath, nextPagePath, numberOfPages} = pageContext;
+  if(!humanPageNumber){
+    pageNumber = 0;
+    humanPageNumber = 1;
+    previousPagePath= "/";
+    nextPagePath = "/blog/2";
+    numberOfPages = Math.floor(data.posts.totalCount / parseInt(process.env.GATSBY_POSTS_PER_PAGE)); 
+  }
   
   const PostItems = posts.map((p, index) => {
     const date = new Date(p.node.frontmatter.date);
     return (
-      <Link to={`/posts${p.node.fields.slug}`}>
-        <PostStyles key={index}>
+      <Link to={`/posts${p.node.fields.slug}`} key={index}>
+        <PostStyles>
           <Img fluid={p.node.frontmatter.thumbnail?.childImageSharp?.fluid} width="200" height="125" alt={p.node.frontmatter.title}/>
             <h3>{p.node.frontmatter.title}</h3>
           <p>{p.node.frontmatter.excerpt}</p>
@@ -100,21 +125,31 @@ export default function IndexPage({data}){
     );
   });
   return (
-  <>
+  <IndexStyles>
     <SEO title="Home" />
     <PostsGrid>
       {PostItems}
     </PostsGrid>
-  </>
+    <div className="links-container">
+      <Link disabled={pageNumber === 0} to={previousPagePath}>Previous</Link>
+      <Link disabled={humanPageNumber === numberOfPages} to={nextPagePath}>Next</Link>
+    </div>
+  </IndexStyles>
 );
 } 
 
 export const query = graphql`
-query {
-  posts: allMarkdownRemark {
+query ($skip: Int = 0, $limit: Int = 4){
+  posts: allMarkdownRemark (
+      sort: { fields: [frontmatter___date], order: DESC }
+      skip: $skip
+      limit: $limit 
+    ){
+    totalCount
     edges {
       node {
-        frontmatter {
+        id
+        frontmatter  {
           title
           excerpt
           date
